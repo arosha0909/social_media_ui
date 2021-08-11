@@ -1,0 +1,55 @@
+<div class="form-container">
+    <div class="row sign-in-header">
+        <div class="col-md-12">
+            <h5 class="main-text-color sign-in">Sign In</h5>
+        </div>
+    </div>
+
+
+    <div class="row sign-in-form">
+        <div class="col-md-12">
+            <form [formGroup]="loginForm">
+                <label class="sr-only" for="inlineFormInputGroupUsername">Email</label>
+                <div class="input-group mb-4 mr-sm-2 ">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text"><i class="fa  fa-envelope"></i></div>
+                    </div>
+                    <input type="text" formControlName="email"
+                        [ngClass]="{ 'is-invalid': submitted && this.loginFields.email.errors }"
+                        class="form-control form-control-sm" id="inlineFormInputGroupUsername" placeholder="Username">
+                </div>
+
+                <label class="sr-only" for="inlineFormInputGroupPassword">Password</label>
+                <div class="input-group mb-4 mr-sm-2 ">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text"><i class="fa  fa-lock"></i></div>
+                    </div>
+                    <input type="password" [ngClass]="{ 'is-invalid': submitted && this.loginFields.password.errors }"
+                        formControlName="password" class="form-control form-control-sm"
+                        id="inlineFormInputGroupPassword" placeholder="Password">
+                </div>
+
+                <div class="form-check  my-1 mr-sm-2 remember-style main-text-color">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                    <a class="f-psw" href="#">Forget Password</a>
+                </div>
+
+                <button class="btn btn-enable btn-sm mt-4 mb-4" (click)="userLogin()">Sign In</button>
+
+                <div class="row">
+                    <div class="col-md-12 text-center main-text-color social-login-tag">
+                        <p>Login via Social Account</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <button class="btn btn-fb mb-3"><i class="fa fa-facebook"></i>Login Via Facebook</button>
+                        <button class="btn btn-twt "><i class="fa fa-twitter"></i>Login Via Twitter</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>

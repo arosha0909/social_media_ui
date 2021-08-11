@@ -1,0 +1,443 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0 auto;
+    padding: 0px;
+    background-color: #dbdbdb;
+}
+
+h5 {
+    font-size: 16px;
+    margin: 0 0 3 0px;
+    color: #4e4e4e;
+}
+
+h6{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+textarea:focus{
+    outline: none !important;
+    shape-outside: none !important;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none !important;
+    shape-outside: none !important;
+}
+
+.pd {
+    padding: 10px;
+}
+
+.bg-hover:hover {
+    background-color: #f0efef;
+}
+
+.bg-c2 {
+    background-color: #aaaaaa;
+}
+
+.bg-c3 {
+    background-color: #838282;
+}
+
+.bg1 {background-color: #08b0ff;}
+
+.bg2 { background-color: #e44d3a;}
+
+.bg3 {background-color: #0bd666;}
+
+.text-color {
+    color: #e44d3a;
+}
+
+.badge-secondary {
+    background-color: #e20909 !important;
+}
+
+p{
+    font-size: 12px;
+    /* font-weight: 500; */
+    margin-top: 5px;
+    color: #737373;
+}
+
+a {
+    font-size: 14px;
+}
+
+.btn-enable {
+    background-color: #e44d3a;
+    color: #ffffff;
+    font-weight: 500;
+    
+    font-size: 10px;
+}
+
+.box-shadow {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.btn-disable{
+    background-color: rgb(207, 207, 207);
+    color: #1b1b1b;
+    font-weight: 500;
+    font-size: 10px;
+    
+}
+
+button {
+    outline:none !important;
+    box-shadow:none !important;
+}
+
+.main-bg-color {
+    background-color: #e44d3a;
+}
+
+.main-text-color {
+    color: #4e4e4e;
+}
+
+input {
+    outline:none !important;
+    box-shadow:none !important; 
+}
+
+.rm-checkbox:focus{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.form-container {
+    padding-left: 45px;
+    padding-right: 45px;
+    height: 70vh;
+}
+
+/* Ripple effect */
+.btn {
+    background-position: center;
+    transition: background 0.8s;
+  }
+  .btn:hover {
+    background: #b6b6b6 radial-gradient(circle, transparent 1%, #e44d3a 1%) center/15000%;
+  }
+  .btn:active {
+    background-color: #e44d3a;
+    background-size: 100%;
+    transition: background 0s;
+  }
+
+  .top-header h5 {
+    font-size: 16px;
+    margin: 0 0 0 0px;
+    color: #737373;
+}
+
+.top-header-right-option {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 18px;
+    color: #818181;
+    cursor: pointer; 
+}
+
+.card2-footer p{
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 0px !important;
+    font-weight: 400;
+    color: #e44d3a;
+    cursor: pointer;
+}
+
+.card3-footer p{
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10px !important;
+    font-weight: 400;
+    color: #e44d3a;
+    cursor: pointer;
+}
+
+/* //comment section */
+.comment-section {
+    padding: 10px;
+    font-size: 12px;
+}
+
+textarea{
+    width: 100% !important;
+    box-shadow: none;
+    border: #adadad solid 1px;
+    resize: none !important;
+}
+
+.comment-section textarea {
+    width: 100% !important;
+    box-shadow: none;
+    border: #adadad solid 1px;
+    resize: none;
+}
+
+.commented-user {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    background-size: cover;
+    /* background-color: #818181; */
+}
+
+.comment-sec{
+    padding: 8px;
+}
+
+.comment {
+    margin-left: 35px;
+}
+
+.comment span {
+    font-size: 10px;
+}
+
+.comment h5 {
+    font-size: 14px !important;
+    margin-bottom: 5px;
+}
+
+.comment .comment-option{
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 10px;
+}
+
+.comment-option-dropdown li a{
+    color: #585858;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.comment-option-dropdown li:hover{
+    background-color: #dddddd;
+    color: #fff !important;
+}
+
+.loadin-post i {
+    font-size: 30px;
+    color: #6f6f6f;
+}
+
+.modal {
+    border-radius: 0px !important;
+}
+
+.modal .modal-header {
+    border-radius: 0px !important;
+    background-color: #e44d3a !important;
+    color: #fff;
+    padding: 10px !important;
+}
+
+.modal-header button span{
+    color: #fff;
+    /* padding: 13px !important; */
+}
+
+.modal-footer {
+    padding: 7px !important;
+}
+
+/* POST */
+
+
+#postSection{
+    padding: 15px;
+    border-radius: 2px;
+    border-top: 3px solid #e44d3a;
+    background-color: #fff;
+}
+
+.bg {
+    border-radius: 3px;
+    background-color: #fff;  
+}
+
+
+
+.post-profile-img{
+    background: url('https://www.cuded.com/wp-content/uploads/2017/08/hair-styles-for-men-31.jpg');
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    border-radius: 50%;
+    padding: 5px;
+    position: absolute;
+}
+
+.post-btn{
+    justify-content: end;
+    align-items: flex-end;
+    text-align: end;
+}
+
+.post-btn button {
+    position: relative;
+}
+
+#post {
+    padding: 10px;
+}
+
+.post-img {
+    background: url('https://www.cuded.com/wp-content/uploads/2017/08/hair-styles-for-men-31.jpg');
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    border-radius: 50%;
+    /* padding: 5px;  */
+    position: absolute;
+}
+
+.post-profile-name{
+    font-size: 14px;
+    margin-left: 42px !important;
+    font-weight: 700;
+    color: #585858;
+    margin-bottom: 0px;
+}
+
+.posted-time {
+    font-size: 10px;
+    /* font-weight: 400; */
+    margin-left: 40px;
+    color: #818181;
+    margin-bottom: 0px;
+}
+
+.post-right-option{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 15px;
+    color: #818181;
+    cursor: pointer;
+}
+
+.post-option-dropdown li a{
+    color: #585858;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.post-option-dropdown li:hover {
+    background-color: #dddddd;
+    color: #fff !important;
+}
+
+.personal-tag-left {
+    padding: 0 0 0  0px !important;
+}
+
+.personal-tag-left li{
+    font-size: 11px;
+    color: #808080;
+    font-weight: 500;
+    margin-right: 15px; 
+    cursor: pointer;   
+}
+
+.personal-tag-left i {
+    margin-right: 5px;
+}
+
+.fa-th-large{
+    color: rgb(68, 68, 255);
+}
+
+.fa-globe {
+    color: chartreuse;
+}
+
+.personal-tag-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 15px;
+    
+}
+
+.personal-tag-right li i:hover {
+    color: #e44d3a;
+    cursor: pointer;
+}
+
+.sub-topic h6 span {
+    /* background-color: rgb(90, 206, 115);
+    border-radius: 15px;
+    font-size: 10px;
+    color: #fafafa;
+    padding: 1px 5px 1px 5px; */
+    margin-right: 10px;
+}
+
+.personal-tag-right i {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+/* .post-description p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #737373;
+} */
+
+.post-tag-list ul{
+    padding: 0 0 0 0px !important;
+}
+
+.post-tag-list ul li {
+    background-color: rgb(185, 185, 185);
+    margin-right: 10px;
+    border-radius: 25px;
+    padding: 3px;
+    font-size: 10px;
+    font-weight: 500;
+    color: rgb(121, 121, 121);
+}
+
+.post-bottom-sec ul {
+    padding: 0 0 0 0px !important;
+    margin-bottom: 10px !important;
+}
+
+.post-bottom-sec ul li {
+    margin-right: 15px;
+    font-size: 12px;
+}
+
+.post-bottom-sec ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #585858;
+    font-weight: 500;
+}
+
+.is-invalid{
+    border: solid #F16A70 1px;
+}

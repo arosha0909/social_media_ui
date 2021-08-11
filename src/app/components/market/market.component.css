@@ -1,0 +1,82 @@
+.container {
+    margin-top: 70px;
+}
+
+.search-top {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 25px;
+}
+
+.search_by{
+    line-height: 38px;
+    font-size: 12px;
+}
+
+.search-panel {
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.search-panel .dropdown-menu {
+    padding: 5px;
+}
+
+.search_by i{
+    line-height: 38px;
+    margin-right: 10px;
+}
+
+.content-section {
+    min-height: 2000px;
+  }
+  
+  .sidebar-section {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .sidebar-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Position the items */
+    padding-left: 15px;
+  }
+  
+  .make-me-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 72px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .filter-head {
+      /* border-bottom: solid 1 px #234; */
+  }
+
+  .filter-head h6{
+    font-size: 15px;
+    color: #585858;
+    padding-top: 8px;
+  }
+
+  .filter-head a {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 11px;
+    color: #818181;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .form-check {
+      font-size: 14px;
+  }
+
+  

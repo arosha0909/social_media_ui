@@ -1,0 +1,192 @@
+.container {
+    margin-top: 57px;
+}
+
+.cover-photo {
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    background-size: cover;
+}
+
+.cover-img-btn{
+    position: absolute;
+    right: 0;
+    margin: 25px 40px 0px 0px;
+    background-color: #fff;
+    color: #e44d3a;
+    font-size: 12px;
+    padding: 5px;
+    border: solid 1px #e44d3a;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+.user-follow-btn {
+    margin-top: 20px;
+}
+
+.user-follow-btn .follow {
+    background-color: #28a745;
+    width: 100%;
+}
+
+.user-follow-btn .hire {
+    background-color: #00a2b3;
+    width: 100%;
+}
+
+.user-follow-btn h5{
+    margin-top: 10px;
+    text-align: center;
+    color: #525252;
+}
+
+.user-follow-btn h6{
+    text-align: center;
+    color: #636363;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+#social-links {  
+    padding: 10px;
+}
+
+.user-img-sec{
+    vertical-align: middle;
+    text-align: center;
+    
+}
+
+.user-img {
+    width: 140px;
+    height: 140px;
+    background-color: black;
+    margin-top: -80px;
+    border-radius: 50%;
+    display: inline-block;
+    background-size: cover;
+    border: solid 4px #fff;
+}
+
+.user-profile-img {
+    position: absolute;
+    background-color: #e44d3a;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0px 0px 0px 30px;
+    cursor: pointer;
+}
+
+.user-profile-img i {
+    padding: 4px;
+}
+
+.links ul{
+    padding-inline-start: 0px !important;
+    padding: 0px 0px 0px 0px !important;
+}
+
+.links ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+#user-main-details button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 17px 20px 0px 0px;
+}
+
+.stars {
+    width: 5px;
+    height: 25px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+ }
+ 
+ .stars .star {
+    /* width: 84px; */
+    position: absolute;
+    top: 0;
+    font-size: 20px;
+    color: #3ff807;
+    /* text-shadow: 1px 2px 4px #c3c11c; */
+    padding: 1px;
+ }
+ 
+ .stars-ghost {
+    width: 0px;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+ }
+ 
+ .stars .star:nth-child(1) {
+    left: 0;
+ }
+ 
+ .stars .star:nth-child(2) {
+    left: 25px;
+ }
+ 
+ .stars .star:nth-child(3) {
+    left: 50px;
+ }
+ 
+ .stars .star:nth-child(4) {
+    left: 75px;
+ }
+ 
+ .stars .star:nth-child(5) {
+    left: 100px;
+ }
+ 
+ #user-portfolio {
+     padding: 10px;
+ }
+
+ .Portfolio-gallery ul {
+    list-style: none;
+    padding-inline-start: 0px !important;
+    padding: 0px 0px 0px 0px !important;
+
+ }
+
+ .Portfolio-gallery ul li {
+     display: inline-block;
+ }
+
+ .Portfolio-gallery ul li div{
+    width: 50px;
+    height: 50px;
+    /* background-color: rgb(3, 3, 14); */
+    margin: 3px 3px 3px 3px;
+    background-size: cover;
+ }
+
+ .nav-item{
+     text-align: center;
+ }
+
+ .nav-item i {
+     font-size: 20px;
+ }
+
+ .nav-link {
+    padding: 0px 10px !important;
+    color: #4e4e4e !important;
+ }
+
+ .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+     background-color: #dbdbdb !important;
+     color: #e44d3a !important;
+     font-weight: 600;
+ }
+

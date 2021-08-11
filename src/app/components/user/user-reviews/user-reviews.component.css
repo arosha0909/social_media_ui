@@ -1,0 +1,50 @@
+#review-head{
+    padding: 10px;
+}
+
+#review-sec {
+    padding: 10px;
+}
+
+.pro-img {
+    width: 45px;
+    height: 45px;
+   background-size: cover;
+    border-radius: 50%;
+}
+
+.commenter-img{
+    width: 35px;
+    height: 35px;
+   background-size: cover;
+    border-radius: 50%;
+}
+
+.nam-and-tags {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0px 0px 0px 55px;
+}
+
+.nam-and-tags h5 {
+    margin-bottom: 0px !important;
+}
+
+.reply-btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 2px 20px 0px 0px;
+}
+
+.nam-and-tags ul {
+    padding: 0px 0px 0px 0px  !important;
+    list-style: none;
+    display: inline-flex;
+    font-size: 10px;
+}
+
+.nam-and-tags ul li {
+    margin-right: 10px;
+}

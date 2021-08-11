@@ -1,0 +1,65 @@
+<div class="auth-body">
+    <div class="container">
+        <div class="row auth-container box-shadow">
+            <div class="col-md-6">
+                <section class="auth-left-sec">
+                    <div class="row">
+                        <div class="col-md-12 login-logo">
+                            <img src="https://students.sri5.lk/Colombo/P.A.Nipuna%20Suranjith%20Ranaweera%20SP%201737/Class%20Project/img/ad19.png"
+                                alt="">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="auth-desc main-text-color">A social networking service is an online platform which
+                                people use to build
+                                social networks
+                                or social relationships with other people who share similar personal or career
+                                interests,
+                                activities, backgrounds or real-life connections</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img src="https://www.pngkey.com/png/full/0-1067_environmental-clipart-transparent-personal-and-social-png.png"
+                                alt="">
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="btn-group btn-group-sm top-btn" role="group" aria-label="Basic example">
+                            <button type="button" class="btn" (click)="signIn()"
+                                [ngClass]="[loginVisibility == true ? 'btn-enable' : 'btn-disable']">Sign
+                                In</button>
+                            <button type="button" class="btn" (click)="signUp()"
+                                [ngClass]="[loginVisibility == false ? 'btn-enable' : 'btn-disable']">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+                <app-login *ngIf="loginVisibility == true "></app-login>
+                <app-sign-up *ngIf="loginVisibility == false "></app-sign-up>
+            </div>
+        </div>
+
+        <nav>
+            <a href="#">Help Center</a> |
+            <a href="#">About</a> |
+            <a href="#">Privecy & Policy</a> |
+            <a href="#">Community Guidline</a> |
+            <a href="#">Cookies Policy</a> |
+            <a href="#">Career</a> |
+            <a href="#">Forum</a> |
+            <a href="#">Language</a> |
+            <a href="#">Copyright Policy</a>
+        </nav>
+
+        <div class="coppyright">
+            <a>&copy; Copyright 2020 devfont.com</a>
+        </div>
+    </div>
+</div>

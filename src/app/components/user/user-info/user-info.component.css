@@ -1,0 +1,54 @@
+#overview {
+    padding-left: 10px;
+}
+
+.overview-head h5 i{
+    cursor: pointer;
+}
+
+#experience{
+    padding: 10px;
+}
+
+.experience-head h5 i {
+    cursor: pointer;
+}
+
+#education{
+    padding: 10px;
+}
+
+.education-head h5 i {
+    cursor: pointer;
+}
+
+#location {
+    padding: 10px;
+}
+
+.location-head h5 i {
+    cursor: pointer;
+}
+
+#skills {
+    padding: 10px;
+}
+
+.skills-head h5 i {
+    cursor: pointer;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0px !important;
+    display: inline-flex;
+}
+
+#skills ul li {
+    background-color: #b1b1b1;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    color: #fff;
+    font-size: 12px;
+}

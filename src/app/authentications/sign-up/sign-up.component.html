@@ -1,0 +1,143 @@
+<div class="form-container">
+    <div class="row sign-in-header" *ngIf="getStartView == true && finishedRegistration == false">
+        <div class="col-md-12">
+            <h5 class="main-text-color sign-up">Sign Up</h5>
+        </div>
+    </div>
+
+    <form [formGroup]="registrationForm">
+        <section class="get-start mt-4" *ngIf="getStartView === true">
+            <label class="sr-only" for="inlineFormInputGroupEmailAddress">Email Address</label>
+            <div class="input-group mb-4 mr-sm-2 ">
+                <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa  fa-envelope"></i></div>
+                </div>
+                <input type="text" [ngClass]="{ 'is-invalid': getStarted && this.registrationFields.email.errors }"
+                    formControlName="email" class="form-control form-control-sm" id="inlineFormInputGroupEmailAddress"
+                    placeholder="Email Address">
+            </div>
+
+            <button class="btn btn-enable btn-sm mt-2 mb-4" (click)="getStart()">Get Started</button>
+        </section>
+
+        <section class="terms" *ngIf="getStartView == false && finishedRegistration == true">
+            <i class="fa fa-long-arrow-left back-arrow" aria-hidden="true" (click)="backToGetStart()"></i>
+            <div class="select-account-type">
+                <div class="row ">
+                    <div class="col-md-12">
+                        <p class="main-text-color text-center">{{this.formData.email}}</p>
+                        <!-- <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+                            <button type="button" class="btn" (click)="selectUser()"
+                                [ngClass]="[userVisibility == true ? 'btn-enable' : 'btn-disable']"
+                                style="width: 100px;">User</button>
+                            <button type="button" class="btn" (click)="selectCompany()"
+                                [ngClass]="[userVisibility == false ? 'btn-enable' : 'btn-disable']"
+                                style="width: 100px;">Company</button>
+                        </div> -->
+                        <div class="stv-radio-buttons-wrapper">
+                            <input type="radio" class="stv-radio-button" name="role" formGroupName="role" id="button1"
+                                checked [ngClass]="[userVisibility == true ? 'btn-enable' : 'btn-disable']"
+                                (click)="selectUser()" value="CUSTOMER" />
+                            <label for="button1">User</label>
+                            <input type="radio" class="stv-radio-button" formGroupName="role" name="role" id="button2"
+                                [ngClass]="[userVisibility == true ? 'btn-enable' : 'btn-disable']"
+                                (click)="selectCompany()" value="COMPANY" />
+                            <label for="button2">Company</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    <label class="sr-only" for="inlineFormInputGroupFullName">Full Name/ Company Name</label>
+                    <div class="input-group mb-3 mr-sm-2 ">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fa  fa-user"></i></div>
+                        </div>
+                        <input type="text"
+                            [ngClass]="{ 'is-invalid': submited && this.registrationFields.fullName.errors }"
+                            formControlName="fullName" class="form-control form-control-sm"
+                            id="inlineFormInputGroupFullName" placeholder="Full Name/ Company Name">
+                    </div>
+
+                    <label class="sr-only" for="inlineFormInputGroupCountry">Country</label>
+                    <div class="input-group mb-3 mr-sm-2 ">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fa fa-globe" aria-hidden="true"></i></div>
+                        </div>
+                        <input type="text"
+                            [ngClass]="{ 'is-invalid': submited && this.registrationFields.country.errors }"
+                            formControlName="country" class="form-control form-control-sm"
+                            id="inlineFormInputGroupCountry " placeholder="Country">
+                    </div>
+
+                    <label *ngIf="userVisibility==true" class="sr-only" for="inlineFormInputGroupDobt">Date of
+                        Birth</label>
+                    <div class="input-group mb-3 mr-sm-2 " *ngIf="userVisibility == true">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fa fa-calendar-o" aria-hidden="true"></i></div>
+                        </div>
+                        <input type="date" [ngClass]="{ 'is-invalid': submited && this.registrationFields.dob.errors }"
+                            formControlName="dob" class="form-control form-control-sm" id="inlineFormInputGroupDob"
+                            placeholder="Date of Birth">
+                    </div>
+
+                    <label *ngIf="userVisibility == false" class="sr-only"
+                        for="inlineFormInputGroupCat">Category</label>
+                    <div class="input-group mb-3 mr-sm-2 " *ngIf="userVisibility == false">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fa fa-building-o" aria-hidden="true"></i></div>
+                        </div>
+                        <!-- <input type="text"
+                            [ngClass]="{ 'is-invalid': submited && this.registrationFields.category.errors }"
+                            formControlName="category" class="form-control form-control-sm" id="inlineFormInputGroupCat"
+                            placeholder="Category"> -->
+                        <select class="form-control form-control-sm">
+                            <option>Small select</option>
+                            <option>Small select1</option>
+                            <option>Small select2</option>
+                        </select>
+                    </div>
+
+                    <label class="sr-only" for="inlineFormInputGroupPassword">Password</label>
+                    <div class="input-group mb-3 mr-sm-2 ">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fa fa-lock" aria-hidden="true"></i></div>
+                        </div>
+                        <input type="password"
+                            [ngClass]="{ 'is-invalid': submited && this.registrationFields.password.errors }"
+                            formControlName="password" class="form-control form-control-sm"
+                            id="inlineFormInputGroupPassword" placeholder="Password">
+                    </div>
+
+                    <label class="sr-only" for="inlineFormInputGroupRepeatPassword">Repeat Pasword</label>
+                    <div class="input-group mb-3 mr-sm-2 ">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fa fa-lock" aria-hidden="true"></i></div>
+                        </div>
+                        <input type="password"
+                            [ngClass]="{ 'is-invalid': submited && this.registrationFields.confirmPassword.errors }"
+                            formControlName="confirmPassword" class="form-control form-control-sm"
+                            id="inlineFormInputGroupRepeatPassword" placeholder="Repeate Password">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="form-check terms-and-condition main-text-color mb-3">
+                <input type="checkbox" formControlName="agreeTerms" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Yes, I Understand and agree to the UserWise Terms &
+                    Conditions.</label>
+            </div>
+            <p style="color: red;" *ngIf="submited && this.registrationFields.agreeTerms.errors">Please Agree with our
+                Terms and Conditions
+            </p>
+
+            <button class="btn btn-enable btn-sm" (click)="signUp()">Sign Up</button>
+        </section>
+
+
+    </form>
+
+</div>

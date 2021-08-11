@@ -1,0 +1,27 @@
+<ul class="nav text-center nav-pills mb-3 main-text-color" id="pills-tab" role="tablist">
+    <li class="nav-item ">
+        <a class="nav-link active" id="pills-manage-bids-tab" data-toggle="pill" href="#manage-bids" role="tab"
+            aria-controls="feed" aria-selected="true">Manage Bids</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="pills-manage-bidders-tab" data-toggle="pill" href="#manage-bidders" role="tab"
+            aria-controls="info" aria-selected="false">Manage Bidders</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="pills-my-active-bids-tab" data-toggle="pill" href="#my-active-bids" role="tab"
+            aria-controls="jobs" aria-selected="false">My Active Bids</a>
+    </li>
+
+</ul>
+<hr>
+<div class="tab-content" id="tabContent">
+    <div class="tab-pane show active" id="manage-bids" role="tabpanel" aria-labelledby="feed-tab">
+        <app-manage-bids></app-manage-bids>
+    </div>
+    <div class="tab-pane show" id="manage-bidders" role="tabpanel" aria-labelledby="feed-tab">
+        <app-manage-bidders></app-manage-bidders>
+    </div>
+    <div class="tab-pane show" id="my-active-bids" role="tabpanel" aria-labelledby="feed-tab">
+        <app-my-active-bids></app-my-active-bids>
+    </div>
+</div>

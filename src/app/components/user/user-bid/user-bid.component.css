@@ -1,0 +1,15 @@
+.nav-item{
+    text-align: center;
+}
+
+.nav-link {
+   padding: 0px 10px !important;
+   color: #4e4e4e !important;
+   font-size: 12px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #dbdbdb !important;
+    color: #e44d3a !important;
+    font-weight: 600;
+}

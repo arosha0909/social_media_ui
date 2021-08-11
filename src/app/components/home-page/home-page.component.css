@@ -1,0 +1,446 @@
+.container {
+    margin-top: 70px;
+}
+
+#postSection{
+    padding: 15px;
+    border-radius: 2px;
+    border-top: 3px solid #e44d3a;
+    background-color: #fff;
+}
+
+.bg {
+    border-radius: 3px;
+    background-color: #fff;  
+}
+
+
+
+.post-profile-img{
+    background: url('https://www.cuded.com/wp-content/uploads/2017/08/hair-styles-for-men-31.jpg');
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    border-radius: 50%;
+    padding: 5px;
+    position: absolute;
+}
+
+.post-btn{
+    justify-content: end;
+    align-items: flex-end;
+    text-align: end;
+}
+
+.post-btn button {
+    position: relative;
+}
+
+#post {
+    padding: 10px;
+}
+
+.post-img {
+    background: url('https://www.cuded.com/wp-content/uploads/2017/08/hair-styles-for-men-31.jpg');
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    border-radius: 50%;
+    /* padding: 5px;  */
+    position: absolute;
+}
+
+.post-profile-name{
+    font-size: 14px;
+    margin-left: 42px !important;
+    font-weight: 700;
+    color: #585858;
+    margin-bottom: 0px;
+}
+
+.posted-time {
+    font-size: 10px;
+    /* font-weight: 400; */
+    margin-left: 40px;
+    color: #818181;
+    margin-bottom: 0px;
+}
+
+.post-right-option{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 15px;
+    color: #818181;
+    cursor: pointer;
+}
+
+.post-option-dropdown li a{
+    color: #585858;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.post-option-dropdown li:hover {
+    background-color: #dddddd;
+    color: #fff !important;
+}
+
+.personal-tag-left {
+    padding: 0 0 0  0px !important;
+}
+
+.personal-tag-left li{
+    font-size: 11px;
+    color: #808080;
+    font-weight: 500;
+    margin-right: 15px; 
+    cursor: pointer;   
+}
+
+.personal-tag-left i {
+    margin-right: 5px;
+}
+
+.fa-th-large{
+    color: rgb(68, 68, 255);
+}
+
+.fa-globe {
+    color: chartreuse;
+}
+
+.personal-tag-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 15px;
+    
+}
+
+.personal-tag-right li i:hover {
+    color: #e44d3a;
+    cursor: pointer;
+}
+
+.sub-topic h6 span {
+    /* background-color: rgb(90, 206, 115);
+    border-radius: 15px;
+    font-size: 10px;
+    color: #fafafa;
+    padding: 1px 5px 1px 5px; */
+    margin-right: 10px;
+}
+
+.personal-tag-right i {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+/* .post-description p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #737373;
+} */
+
+.post-tag-list ul{
+    padding: 0 0 0 0px !important;
+}
+
+.post-tag-list ul li {
+    background-color: rgb(185, 185, 185);
+    margin-right: 10px;
+    border-radius: 25px;
+    padding: 3px;
+    font-size: 10px;
+    font-weight: 500;
+    color: rgb(121, 121, 121);
+}
+
+.post-bottom-sec ul {
+    padding: 0 0 0 0px !important;
+    margin-bottom: 10px !important;
+}
+
+.post-bottom-sec ul li {
+    margin-right: 15px;
+    font-size: 12px;
+}
+
+.post-bottom-sec ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #585858;
+    font-weight: 500;
+}
+
+.post-bottom-sec ul li a:hover, :active {
+    color: #e44d3a;
+}
+
+#user-profile-card{
+    padding: 10px;
+}
+
+.profile-card-header {
+    width: 100% ;
+    height:80px;
+    border-radius: 3px 3px 0px 0px;
+}
+
+.profile-img-card {
+    position: relative;
+}
+
+.profile-img-card .profile-img {
+    width: 90px;
+    height: 90px;
+    background-color: black;
+    border-radius: 50px;
+    border: solid 4px #ffffff;background: url('https://www.cuded.com/wp-content/uploads/2017/08/hair-styles-for-men-31.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.profile-card-name h5{
+    margin-top: 55px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.profile-card-name p {
+    font-size: 11px;
+    text-align: center;
+    font-weight: 700;
+    color: #868686;
+    margin-bottom: 0px;
+}
+
+.following h5{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.following p {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.followers h5{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.followers p {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.view-profile p{
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10px !important;
+    font-weight: 500;
+    color: #e44d3a;
+    cursor: pointer;
+}
+
+#suggestionSec {
+    padding: 10px;
+}
+
+.suggestion-name h5 {
+    font-size: 18px;
+    margin: 0 0 0 0px;
+}
+
+.suggestion-right-option {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 18px;
+    color: #818181;
+    cursor: pointer; 
+}
+
+.sug-img {
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+    /* background: url(''); */
+    background-size: cover;
+}
+
+.sug-name-tag {
+    margin-left: 20px;
+}
+
+.plus-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 20px;
+    padding: 0px 5px 0px 5px !important;
+    color: #585858;
+}
+
+.sug-name-tag h6{
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.sug-name-tag p {
+    font-size: 10px;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+
+.sug-view-more p {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 5px !important;
+    color: #e44d3a;
+}
+
+#footer-link {
+    padding: 10px !important;
+}
+
+#footer-link nav a {
+    font-size: 12px;
+    color: #727272;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#footer-link .coppyright {
+    color: #e44d3a;
+    font-size: 10px;
+    font-weight: 700;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#timeTracker {
+    padding: 10px;
+}
+
+.time-tracker {
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.time-tracker img {
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+}
+
+.track-time-header h5 {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 4px;
+}
+
+.track-time-header p {
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    color: #828282;
+}
+
+.time-track-footer h4{
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.time-track-footer p {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    color: #e44d3a;
+    cursor: pointer;
+}
+
+#top-jobs {
+    padding: 10px;
+}
+
+.job-bar{
+    cursor: pointer;
+}
+
+.job-topic {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 2px;
+    color: #585858;
+}
+
+.job-desc{
+    font-size: 10px;
+}
+
+.job-bar .top-job-usd-rate{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 12px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+#profile-slider {
+    padding: 10px;
+}
+
+.top-profile {
+    justify-content: center;
+    justify-items: center;
+    text-align: center !important;
+}
+
+.top-profile p {
+    margin-bottom: 10px;
+}
+
+.top-profile-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.profile-card-option{
+    margin: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    /* background-color: #868686; */
+    color: #fff !important;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}

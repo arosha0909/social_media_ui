@@ -1,0 +1,29 @@
+.container {
+    margin-top: 70px;
+}
+
+#companies {
+    padding: 10px;
+}
+
+.company-cards{
+    /* padding-left: 0px !important; */
+}
+
+.company-cards  .card {
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.company-cards li {
+    list-style: none;
+    display: inline-flex;
+}
+
+.card-logo-top {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    justify-items: center;
+    margin: 15px auto;
+}

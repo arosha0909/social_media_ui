@@ -1,0 +1,97 @@
+<section id="portfolio" class="bg box-shadow mt-2 mb-4">
+    <div class="row portfolio-head">
+        <div class="col-md-12">
+            <h5>Portfolio</h5>
+            <button class="btn btn-sm btn-enable" data-toggle="modal" data-target="#portfolio-upload">Create
+                Portfolio</button>
+        </div>
+    </div>
+
+    <hr>
+
+    <div id="gallery" class="container-fluid">
+
+        <img src="https://picsum.photos/540" class="card img-responsive">
+        <img src="https://picsum.photos/540" class="card img-responsive">
+        <img src="https://picsum.photos/540" class="card img-responsive">
+        <img src="https://picsum.photos/540" class="card img-responsive">
+
+        <img src="https://picsum.photos/540" class="card img-responsive">
+        <img src="https://picsum.photos/540" class="card img-responsive">
+        <img src="https://picsum.photos/540" class="card img-responsive">
+        <img src="https://picsum.photos/540" class="card img-responsive">
+
+    </div>
+
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+                <div class="modal-body modal-body2">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<div class="modal fade" id="portfolio-upload" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Create Portfolio</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <input type="text" class="form-control form-control-sm" id="formGroupExampleInput1291"
+                                placeholder="Portfolio Name">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- <p class="pull-right" style="margin-bottom: 5px; font-size: 10px;">0 of 2000 charectors </p> -->
+                        <textarea name="overview" class="form-control-sm" id="" cols="30" rows="3"
+                            placeholder="Portfolio Description"></textarea>
+                    </div>
+                </div>
+                <div class="row mt-2 mb-2">
+                    <div class="col-md-12 ">
+                        <div class="upload-sec">
+                            <button class="btn btn-sm btn-enable" style="margin: 2px 0px 0px 5px">Upload</button>
+                            <p style="position: absolute; top: 0; left: 0; margin-left: 80px;">Select Image</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-2 mb-2">
+                    <div class="col-md-12">
+                        <div class="img-zone">
+                            <div class="port-img"
+                                style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyBaHqc4ldBfDH6k9gxlvESW9PaZHWK7SZua6Lrn40U9yoDmOR&s);">
+                            </div>
+                            <!-- <div class="port-img" style="background-image: url(https://picsum.photos/540);"></div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <input type="text" class="form-control form-control-sm" id="formGroupExampleInput10"
+                                placeholder="http://www.exapmle.com">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-enable">Save</button>
+                <button type="button" class="btn btn-disable" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,63 @@
+.sign-in-header{
+    margin-bottom: 15px;
+}
+
+.sign-in:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 0;
+    width: 40px;
+    margin-left: 15px;
+    border-bottom: 2px solid #F16A70;
+    transition: width 0.3s ease;
+}
+
+.sign-in-form{
+    margin-top: 20px;
+}
+
+i{
+    color: #F16A70;
+}
+
+.input-group-text {
+    background-color: #fff !important;
+}
+
+.remember-style {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.f-psw{
+    text-align: right;
+    float: right;
+}
+
+.social-login-tag {
+    font-size: 14px;
+}
+
+.btn-fb {
+    width: 100%;
+    color: #fff;
+    background-color: #3b5998;
+}
+
+.btn-fb i {
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-twt {
+    width:100%;
+    color: #fff;
+    background-color:  #00acee;
+}
+
+.btn-twt i {
+    color: #fff;
+    margin-right: 15px;
+}
